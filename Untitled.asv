@@ -1,0 +1,22 @@
+load abc
+finaltt=zeros(5,length(finaltestval));
+for i=1:length(r)
+if (r(i)==finaltestval1) 
+    
+end
+end
+finaltt(r,1)=1;
+for j=1:length(finaltestval1)
+    FINAL_RESULT_SOM{j}=result_class{(r)};
+end
+set(handles.text5,'String',FINAL_RESULT_SOM{1});
+figure;plotconfusion(finaltt,train_class);
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
